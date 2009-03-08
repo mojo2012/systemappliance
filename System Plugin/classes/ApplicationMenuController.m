@@ -18,6 +18,8 @@
 - (id)init
 {
 	if (DEBUG_MODE) NSLog(@"SystemAppliance: ApplicationMenuController - init");
+	
+	//initialize all the needed variables
 	workspace = [NSWorkspace sharedWorkspace];
 	pathToAppFolder = [[NSString alloc] init];
 	pathToApp = [[NSString alloc] init];
