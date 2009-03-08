@@ -237,17 +237,17 @@
 	};
 	5E5CEE2E0F6031A4002FB743 /* ApplicationAlertController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1061, 1862}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1061, 1834}}";
 			sepNavSelRange = "{98, 0}";
-			sepNavVisRange = "{0, 951}";
+			sepNavVisRange = "{0, 1075}";
 			sepNavWindowFrame = "{{427, 173}, {896, 697}}";
 		};
 	};
 	5E5CEE2F0F6031A4002FB743 /* ApplicationMenuController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1061, 3136}}";
-			sepNavSelRange = "{720, 0}";
-			sepNavVisRange = "{88, 1544}";
+			sepNavIntBoundsRect = "{{0, 0}, {837, 3150}}";
+			sepNavSelRange = "{378, 0}";
+			sepNavVisRange = "{88, 978}";
 			sepNavWindowFrame = "{{488, 181}, {896, 697}}";
 		};
 	};
