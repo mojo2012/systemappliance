@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FRApplianceCategoryDescriptors</key>
+	<array>
+		<dict>
+			<key>identifier</key>
+			<string>Applications</string>
+			<key>preferred-order</key>
+			<integer>100</integer>
+			<key>path</key>
+			<string>/Users/frontrow/Applications</string>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>Scripts</string>
+			<key>preferred-order</key>
+			<integer>101</integer>
+			<key>path</key>
+			<string>/Users/frontrow/Documents/Scripts</string>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>Shutdown</string>
+			<key>preferred-order</key>
+			<integer>102</integer>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>Reboot</string>
+			<key>preferred-order</key>
+			<integer>103</integer>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>RestartFinder</string>
+			<key>preferred-order</key>
+			<integer>104</integer>
+		</dict>
+	</array>
+	<key>Scripts</key>
+	<array>
+		<dict>
+			<key>identifier</key>
+			<string>dvb_over_vlc</string>
+			<key>name</key>
+			<string>DVB over VLC</string>
+			<key>preferred-order</key>
+			<integer>100</integer>
+			<key>path</key>
+			<string>/Users/frontrow/Documents/Scripts/DVBoverVLC.sh</string>
+			<key>launchtype</key>
+			<string>faw</string>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>dvb_over_mplayer</string>
+			<key>name</key>
+			<string>DVB over MPlayer</string>
+			<key>preferred-order</key>
+			<integer>101</integer>
+			<key>path</key>
+			<string>/Users/frontrow/Documents/Scripts/DVBoverMPlayer.sh</string>
+			<key>launchtype</key>
+			<string>faw</string>
+		</dict>
+		<dict>
+			<key>identifier</key>
+			<string>streaming_tvu</string>
+			<key>name</key>
+			<string>Streaming over TVU</string>
+			<key>preferred-order</key>
+			<integer>102</integer>
+			<key>path</key>
+			<string>/Users/frontrow/Documents/Scripts/StreamingTVU.sh</string>
+			<key>launchtype</key>
+			<string>faw</string>
+		</dict>
+	</array>
+</dict>
+</plist>
