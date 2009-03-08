@@ -21,8 +21,8 @@
 		5E5CEE530F6031CD002FB743 /* RestartFinder.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E5CEE500F6031CD002FB743 /* RestartFinder.sh */; };
 		5E5CEE540F6031CD002FB743 /* Shutdown.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E5CEE510F6031CD002FB743 /* Shutdown.sh */; };
 		5E5CEE580F6031D9002FB743 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E5CEE560F6031D9002FB743 /* defaults.plist */; };
-		5EB743CE0F63D4D1008CF8A2 /* BackRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB743CC0F63D4D1008CF8A2 /* BackRow.framework */; };
-		5EB743CF0F63D4D1008CF8A2 /* iPhotoAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB743CD0F63D4D1008CF8A2 /* iPhotoAccess.framework */; };
+		5EC8B47D0F6432F700CF5296 /* BackRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC8B47B0F6432F700CF5296 /* BackRow.framework */; };
+		5EC8B47E0F6432F700CF5296 /* iPhotoAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC8B47C0F6432F700CF5296 /* iPhotoAccess.framework */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -53,9 +53,9 @@
 		5E5CEE560F6031D9002FB743 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = defaults.plist; path = resources/defaults.plist; sourceTree = "<group>"; };
 		5E5CEE5D0F6031FC002FB743 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EAF34CB0F60311900DEDE83 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5EB743CC0F63D4D1008CF8A2 /* BackRow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackRow.framework; path = ../../../Documents/Development/2.1/PrivateFrameworks/BackRow.framework; sourceTree = SOURCE_ROOT; };
-		5EB743CD0F63D4D1008CF8A2 /* iPhotoAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iPhotoAccess.framework; path = ../../../Documents/Development/2.1/PrivateFrameworks/iPhotoAccess.framework; sourceTree = SOURCE_ROOT; };
 		5EB7BC530F50671D008EF0CD /* System.frappliance */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = System.frappliance; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8B47B0F6432F700CF5296 /* BackRow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackRow.framework; path = ../../../Documents/Development/Headers/2.1/PrivateFrameworks/BackRow.framework; sourceTree = SOURCE_ROOT; };
+		5EC8B47C0F6432F700CF5296 /* iPhotoAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iPhotoAccess.framework; path = ../../../Documents/Development/Headers/2.1/PrivateFrameworks/iPhotoAccess.framework; sourceTree = SOURCE_ROOT; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +66,8 @@
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				3E7C06630E25396600546305 /* QuartzCore.framework in Frameworks */,
-				5EB743CE0F63D4D1008CF8A2 /* BackRow.framework in Frameworks */,
-				5EB743CF0F63D4D1008CF8A2 /* iPhotoAccess.framework in Frameworks */,
+				5EC8B47D0F6432F700CF5296 /* BackRow.framework in Frameworks */,
+				5EC8B47E0F6432F700CF5296 /* iPhotoAccess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5EB743CC0F63D4D1008CF8A2 /* BackRow.framework */,
-				5EB743CD0F63D4D1008CF8A2 /* iPhotoAccess.framework */,
+				5EC8B47B0F6432F700CF5296 /* BackRow.framework */,
+				5EC8B47C0F6432F700CF5296 /* iPhotoAccess.framework */,
 				3E7C06620E25396600546305 /* QuartzCore.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 			);
@@ -300,6 +300,7 @@
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)/../2.1/PrivateFrameworks\"",
 					"\"$(SRCROOT)/../../../Documents/Development/2.1/PrivateFrameworks\"",
+					"\"$(SRCROOT)/../../../Documents/Development/Headers/2.1/PrivateFrameworks\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -336,11 +337,13 @@
 					ppc,
 					i386,
 				);
+				CURRENT_PROJECT_VERSION = 0.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				PRODUCT_NAME = "System Appliance";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Debug;
 		};
@@ -353,6 +356,7 @@
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)/../2.1/PrivateFrameworks\"",
 					"\"$(SRCROOT)/../../../Documents/Development/2.1/PrivateFrameworks\"",
+					"\"$(SRCROOT)/../../../Documents/Development/Headers/2.1/PrivateFrameworks\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
