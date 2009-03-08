@@ -10,6 +10,8 @@
 		3E7C06630E25396600546305 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7C06620E25396600546305 /* QuartzCore.framework */; };
 		5E2B070C0F62AEB5003FC97B /* ExecutableBinaryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2B070A0F62AEB5003FC97B /* ExecutableBinaryIcon.png */; };
 		5E2B070D0F62AEB5003FC97B /* GenericApplicationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2B070B0F62AEB5003FC97B /* GenericApplicationIcon.png */; };
+		5E59F5840F63EA8E009D7011 /* All Classes.xcclassmodel in Resources */ = {isa = PBXBuildFile; fileRef = 5E59F5830F63EA8E009D7011 /* All Classes.xcclassmodel */; };
+		5E59F58B0F63EAF1009D7011 /* Classes.xcclassmodel in Resources */ = {isa = PBXBuildFile; fileRef = 5E59F58A0F63EAF1009D7011 /* Classes.xcclassmodel */; };
 		5E5CEE340F6031A4002FB743 /* ApplicationAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CEE2E0F6031A4002FB743 /* ApplicationAlertController.m */; };
 		5E5CEE350F6031A4002FB743 /* ApplicationMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CEE2F0F6031A4002FB743 /* ApplicationMenuController.m */; };
 		5E5CEE360F6031A4002FB743 /* BackRowHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CEE300F6031A4002FB743 /* BackRowHelper.m */; };
@@ -33,6 +35,8 @@
 		3E7C06620E25396600546305 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		5E2B070A0F62AEB5003FC97B /* ExecutableBinaryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExecutableBinaryIcon.png; path = resources/ExecutableBinaryIcon.png; sourceTree = "<group>"; };
 		5E2B070B0F62AEB5003FC97B /* GenericApplicationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GenericApplicationIcon.png; path = resources/GenericApplicationIcon.png; sourceTree = "<group>"; };
+		5E59F5830F63EA8E009D7011 /* All Classes.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; name = "All Classes.xcclassmodel"; path = "diagrams/All Classes.xcclassmodel"; sourceTree = "<group>"; };
+		5E59F58A0F63EAF1009D7011 /* Classes.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; name = Classes.xcclassmodel; path = diagrams/Classes.xcclassmodel; sourceTree = "<group>"; };
 		5E5CEE2E0F6031A4002FB743 /* ApplicationAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationAlertController.m; path = classes/ApplicationAlertController.m; sourceTree = "<group>"; };
 		5E5CEE2F0F6031A4002FB743 /* ApplicationMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationMenuController.m; path = classes/ApplicationMenuController.m; sourceTree = "<group>"; };
 		5E5CEE300F6031A4002FB743 /* BackRowHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackRowHelper.m; path = classes/BackRowHelper.m; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				5E59F5860F63EA95009D7011 /* Diagrams */,
 			);
 			name = HelloWorld;
 			sourceTree = "<group>";
@@ -163,6 +168,15 @@
 			name = Scripts;
 			sourceTree = "<group>";
 		};
+		5E59F5860F63EA95009D7011 /* Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+				5E59F58A0F63EAF1009D7011 /* Classes.xcclassmodel */,
+				5E59F5830F63EA8E009D7011 /* All Classes.xcclassmodel */,
+			);
+			name = Diagrams;
+			sourceTree = "<group>";
+		};
 		5E5CEE3A0F6031A8002FB743 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +240,8 @@
 				5E5CEE580F6031D9002FB743 /* defaults.plist in Resources */,
 				5E2B070C0F62AEB5003FC97B /* ExecutableBinaryIcon.png in Resources */,
 				5E2B070D0F62AEB5003FC97B /* GenericApplicationIcon.png in Resources */,
+				5E59F5840F63EA8E009D7011 /* All Classes.xcclassmodel in Resources */,
+				5E59F58B0F63EAF1009D7011 /* Classes.xcclassmodel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
