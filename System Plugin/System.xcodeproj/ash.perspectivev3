@@ -281,13 +281,12 @@
 								<string>08FB77AFFE84173DC02AAC07</string>
 								<string>089C1671FE841209C02AAC07</string>
 								<string>1058C7ACFEA557BF11CA2CBB</string>
+								<string>19C28FB8FE9D52D311CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +326,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>5E502B1E0F4347720026D35E</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ApplicationAlertController.h</string>
+								<string>ApplicationMenuController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,21 +334,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>5E502B1F0F4347720026D35E</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ApplicationAlertController.h</string>
+										<string>ApplicationMenuController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5EC5B7B70F63DC8100CB1D8B</string>
+										<string>5EC5B7D90F63DE6C00CB1D8B</string>
 										<key>history</key>
 										<array>
-											<string>5E2F69330F63DA2500736993</string>
 											<string>5EC5B7B40F63DC8100CB1D8B</string>
-											<string>5EC5B7B50F63DC8100CB1D8B</string>
+											<string>5EC5B7D40F63DE6C00CB1D8B</string>
+											<string>5EC5B7D50F63DE6C00CB1D8B</string>
+											<string>5EC5B7D60F63DE6C00CB1D8B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>5E2F69350F63DA2500736993</string>
 											<string>5EC5B7B60F63DC8100CB1D8B</string>
+											<string>5EC5B7D70F63DE6C00CB1D8B</string>
+											<string>5EC5B7D80F63DE6C00CB1D8B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,7 +390,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {0, -27}}</string>
+										<string>{{10, 27}, {1122, 104}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -683,6 +685,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>5EC5B7BD0F63DCF100CB1D8B</string>
 		<string>/Users/ash/Projekte/Xcode/System Plugin/System.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -978,22 +981,42 @@
 			<integer>0</integer>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.snapshots</string>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>5EC5B7BC0F63DCF100CB1D8B</string>
+								<key>PBXProjectModuleLabel</key>
+								<string>Snapshots</string>
+							</dict>
+							<key>GeometryConfiguration</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {1005, 509}}</string>
+								<key>RubberWindowFrame</key>
+								<string>277 273 1005 550 0 0 1440 878 </string>
+							</dict>
 							<key>Module</key>
 							<string>XCSnapshotModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>509pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>509pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1003,13 +1026,21 @@
 				<string>XCSnapshotModule</string>
 			</array>
 			<key>StatusbarIsVisible</key>
-			<string>Yes</string>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>5EC5B7BD0F63DCF100CB1D8B</string>
+				<string>5EC5B7BE0F63DCF100CB1D8B</string>
+				<string>5EC5B7BC0F63DCF100CB1D8B</string>
+			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.snapshots</string>
 			<key>WindowString</key>
-			<string>315 824 300 550 0 0 1440 878 </string>
+			<string>277 273 1005 550 0 0 1440 878 </string>
+			<key>WindowToolGUID</key>
+			<string>5EC5B7BD0F63DCF100CB1D8B</string>
 			<key>WindowToolIsVisible</key>
-			<string>Yes</string>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

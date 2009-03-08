@@ -73,7 +73,6 @@
 		089C166AFE841209C02AAC07 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				5EC5B7C70F63DE1400CB1D8B /* build */,
 				5E5CEE3A0F6031A8002FB743 /* Headers */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -174,13 +173,6 @@
 				5E5CEE430F6031B8002FB743 /* SystemAppliance.h */,
 			);
 			name = Headers;
-			sourceTree = "<group>";
-		};
-		5EC5B7C70F63DE1400CB1D8B /* build */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = build;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
